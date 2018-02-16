@@ -87,11 +87,27 @@
             }
         },
         {
+            "Key": "7691740f-4544-48b3-8fe1-06ac43802a43",
+            "Value": {
+                "id": "d739b757-b1fa-468e-bdf4-0b9738f4076e",
+                "resourcePath": "sprites\\sprite_Player\\sprite_Player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f1942e3-4a66-4000-8015-735c79cad50c",
             "Value": {
                 "id": "aa812a6a-b336-4f67-8056-c013a7d40f25",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "808e0fbe-a3a6-416c-90c6-8f4bc473c847",
+            "Value": {
+                "id": "cb84bc90-efdc-4a13-9648-ac7fd8d50c0a",
+                "resourcePath": "objects\\object_Player\\object_Player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
