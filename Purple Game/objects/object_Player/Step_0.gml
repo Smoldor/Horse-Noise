@@ -33,3 +33,14 @@ if (place_meeting(x,y-verticlespeed,all))
 
 x = x - horizontalspeed;
 y = y - verticlespeed;
+
+//facing towards the mouse
+image_angle = point_direction(x,y,mouse_x,mouse_y);
+
+
+
+
+
+
+
+
