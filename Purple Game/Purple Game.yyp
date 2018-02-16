@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "40c9c9f0-8c0f-4f9d-9e2e-a574b0f312d2",
+            "Value": {
+                "id": "5fa69d2b-97b7-4f2e-abb1-200d08326273",
+                "resourcePath": "sprites\\spr_test\\spr_test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4271bed1-98f9-4fc4-8770-de1f8cf10fb1",
+            "Value": {
+                "id": "62833dc2-6c52-4fcb-9790-82c756b7f999",
+                "resourcePath": "tilesets\\tile_test\\tile_test.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "45d03e1c-a405-4a65-9232-8c8dd638067b",
             "Value": {
                 "id": "66f31ed5-bf03-4f9f-88bc-b103e03d7de5",
