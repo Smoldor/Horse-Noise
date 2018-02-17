@@ -34,13 +34,17 @@ if (place_meeting(x,y-verticlespeed,all))
 x = x - horizontalspeed;
 y = y - verticlespeed;
 
-//facing towards the mouse
-image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 
+//Tile Collision Horizontal
+var bbox_side;
+if (horizontalspeed > 0) bbox_side = bbox_right;
+	else bbox_side = bbox_left;
 
-
-
-
-
+if (tilemap_get_at_pixel(tilemap,bbox_side+horizontalspeed,bbox_top) != 0) or (tilemap_get_at_pixel(tilemap,bbox_side+horizontalspeed,bbox_bottom) != 0)
+{
+	if (horizontalspeed > 0) x = x - (x mod 64) + 63 - (bbox_right - x);
+	else x = x - (x mod 64) - (bbox_left - x);
+	horizontalspeed = 0;
+}
 
